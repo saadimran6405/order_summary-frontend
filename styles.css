@@ -1,0 +1,103 @@
+body{
+    background-image: url("file:///C:/Users/saad6/OneDrive/Desktop/web%20dev/order-summary-component-main/images/pattern-background-desktop.svg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: hsl(225, 100%, 94%);
+}
+main{
+    width: 24%;
+    height: 70%;
+    border: 1px solid white;
+    margin: 110px auto;
+    border-radius: 15px;
+    background-color: white;
+}
+main img{
+    width: 100%;
+    border-radius: 15px 15px 0px 0px;
+}
+main h2{
+    text-align: center;
+    font-family: 'Outfit', sans-serif;
+    color: #333333;
+    margin-top: 25px;
+    font-weight: 700;
+}
+main p{
+    margin: 0;
+    text-align: center;
+    color: darkgray;    
+    font-size: 16px;
+}
+main .music{
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    height: 85px;
+    margin-top: 15px;
+}
+
+main .music img{
+    max-width: 40%;
+    max-height: 50%;
+    object-fit: contain;
+    margin-top: 20px;
+    margin-left: -15px;
+    overflow:hidden ;
+}
+
+main .music h5{
+    text-align: center;
+    margin-top: -42;
+    margin-left: -50px;
+    color: #4d4d4d;
+    font-family: 'Outfit', sans-serif;
+}
+main .music p{
+    display: inline-block;
+    text-align: center;
+    margin-top: -18px;
+    margin-left: 62px;
+}
+main a{
+    display: flex;
+    margin-left: 190px;
+    margin-top: -30px;
+    font-size: 16px;
+}
+.move-on{
+    height: 17%;
+    text-align: center;
+}
+.move-on button{
+    width: 80%;
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: #1035AC;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    margin-top: 5px;
+    height: 40%;
+    color: white;
+    font-size: 16px;
+}
+.move-on p{
+    color: darkgray;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.move-on button:hover{
+    cursor: pointer;
+    background-color: #588BAE;
+}
+.move-on p:hover{
+    cursor: pointer;
+    color: #101D6B;
+}
+main a:hover{
+    text-decoration: none;
+    text-decoration-style: none;
+}
